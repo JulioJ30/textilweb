@@ -1,0 +1,20 @@
+﻿//LISTAR AREAS
+function ListarAreas(control) {
+	$.ajax({
+		url: '/operaciones/ListarAreas/',
+		type: 'GET',
+		contenType: 'json',
+		success: function (e) {
+			//console.log(e);
+		    let op = "";
+		    if(control == "cboAreasFiltro"){
+		        op = "<option value='0'>TODOS LOS REGISTROS</option>";
+		    }
+			e.forEach((obj)=>{
+				op += `<option value='${obj.idarea}'>${obj.nombre_area}</option>`;
+			});
+			//console.log(op);
+		$("#"+control).html(op);
+		}
+	});
+}

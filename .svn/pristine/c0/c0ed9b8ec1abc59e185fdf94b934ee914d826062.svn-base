@@ -1,0 +1,1357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\OneDrive - Textile Sourcing Company S.A.C\CESAR INFORMES\PUBLICACIONES WEB\15062020</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Admin/css/404.css">
+      <publishTime>05/30/2020 09:16:17</publishTime>
+    </File>
+    <File Include="Admin/css/500.css">
+      <publishTime>05/30/2020 09:16:17</publishTime>
+    </File>
+    <File Include="Admin/css/DesarrolloProductoImprimir.css">
+      <publishTime>05/30/2020 09:16:17</publishTime>
+    </File>
+    <File Include="Admin/css/sistema.css">
+      <publishTime>05/30/2020 09:16:17</publishTime>
+    </File>
+    <File Include="Admin/js/404.js">
+      <publishTime>05/30/2020 09:16:17</publishTime>
+    </File>
+    <File Include="Admin/js/500.js">
+      <publishTime>05/30/2020 09:16:17</publishTime>
+    </File>
+    <File Include="Admin/js/Corte/ReporteControlUsoIndicador.js">
+      <publishTime>05/30/2020 09:16:17</publishTime>
+    </File>
+    <File Include="Admin/js/generales/DataTables.admin.js">
+      <publishTime>05/30/2020 09:16:17</publishTime>
+    </File>
+    <File Include="Admin/js/generales/Listar.admin.js">
+      <publishTime>05/30/2020 09:16:17</publishTime>
+    </File>
+    <File Include="Admin/js/generales/Modulos.admin.js">
+      <publishTime>05/30/2020 09:16:17</publishTime>
+    </File>
+    <File Include="Admin/js/generales/select2.admin.js">
+      <publishTime>05/30/2020 09:16:17</publishTime>
+    </File>
+    <File Include="Admin/js/generales/sweetalert2.admin.js">
+      <publishTime>05/30/2020 09:16:17</publishTime>
+    </File>
+    <File Include="Admin/js/OperacionesProceso/FichaTecnica/Filtros.js">
+      <publishTime>05/30/2020 09:16:17</publishTime>
+    </File>
+    <File Include="Admin/js/OperacionesProceso/FichaTecnica/Registros.js">
+      <publishTime>05/30/2020 09:16:17</publishTime>
+    </File>
+    <File Include="Admin/js/Planeamiento/JSMermaClientes.js">
+      <publishTime>06/15/2020 19:52:27</publishTime>
+    </File>
+    <File Include="app.manifest">
+      <publishTime>10/03/2019 08:55:40</publishTime>
+    </File>
+    <File Include="App_Browsers/qt.browser">
+      <publishTime>05/30/2020 09:16:17</publishTime>
+    </File>
+    <File Include="bin/Dapper.dll">
+      <publishTime>04/05/2020 12:46:02</publishTime>
+    </File>
+    <File Include="bin/Dapper.Oracle.dll">
+      <publishTime>05/12/2019 20:30:42</publishTime>
+    </File>
+    <File Include="bin/Dapper.Oracle.pdb">
+      <publishTime>05/12/2019 20:30:30</publishTime>
+    </File>
+    <File Include="bin/EPPlus.dll">
+      <publishTime>05/30/2020 09:16:48</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Helpers.resources.dll">
+      <publishTime>01/28/2015 04:04:36</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Mvc.resources.dll">
+      <publishTime>01/28/2015 04:02:24</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Razor.resources.dll">
+      <publishTime>01/28/2015 04:02:36</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Webpages.Deployment.resources.dll">
+      <publishTime>01/28/2015 04:04:36</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Webpages.Razor.resources.dll">
+      <publishTime>01/28/2015 04:04:36</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Webpages.resources.dll">
+      <publishTime>01/28/2015 04:04:36</publishTime>
+    </File>
+    <File Include="bin/KoenZomers.OneDrive.Api.dll">
+      <publishTime>05/30/2020 09:16:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>05/30/2020 09:16:53</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>05/30/2020 09:16:55</publishTime>
+    </File>
+    <File Include="bin/Oracle.ManagedDataAccess.dll">
+      <publishTime>06/24/2016 10:06:40</publishTime>
+    </File>
+    <File Include="bin/Rotativa.dll">
+      <publishTime>05/30/2020 09:16:59</publishTime>
+    </File>
+    <File Include="bin/Rotativa/wkhtmltoimage.exe">
+      <publishTime>05/30/2020 09:16:32</publishTime>
+    </File>
+    <File Include="bin/Rotativa/wkhtmltopdf.exe">
+      <publishTime>05/30/2020 09:16:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>05/30/2020 09:16:53</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>05/30/2020 09:16:50</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>05/30/2020 09:16:52</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>05/30/2020 09:16:53</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>05/30/2020 09:16:53</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>05/30/2020 09:16:53</publishTime>
+    </File>
+    <File Include="bin/TSC_WEB.dll">
+      <publishTime>06/15/2020 19:57:31</publishTime>
+    </File>
+    <File Include="bin/TSC_WEB.pdb">
+      <publishTime>06/15/2020 19:57:31</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>05/30/2020 09:16:38</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/30/2020 09:16:17</publishTime>
+    </File>
+    <File Include="Libs/Bootstrap-select/css/bootstrap-select.min.css">
+      <publishTime>05/30/2020 09:16:17</publishTime>
+    </File>
+    <File Include="Libs/Bootstrap-select/js/bootstrap-select.min.js">
+      <publishTime>05/30/2020 09:16:17</publishTime>
+    </File>
+    <File Include="Libs/Bootstrap/js/bootstrap.bundle.min.js">
+      <publishTime>05/30/2020 09:16:17</publishTime>
+    </File>
+    <File Include="Libs/Chartjs/Chart.bundle.js">
+      <publishTime>05/30/2020 09:16:17</publishTime>
+    </File>
+    <File Include="Libs/Chartjs/Chart.bundle.min.js">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Chartjs/Chart.css">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Chartjs/Chart.js">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Chartjs/Chart.min.css">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Chartjs/Chart.min.js">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Dashboard/css/adminlte.css">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Dashboard/css/adminlte.min.css">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Dashboard/js/adminlte.js">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Dashboard/js/adminlte.min.js">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Datatables/dataTables.bootstrap4.css">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Datatables/dataTables.bootstrap4.js">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Datatables/dataTables.bootstrap4.min.css">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Datatables/dataTables.bootstrap4.min.js">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Datatables/dataTables.responsive.min.js">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/AutoFill/css/dataTables.autoFill.css">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/AutoFill/css/dataTables.autoFill.min.css">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/AutoFill/examples/columns.html">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/AutoFill/examples/complete-callback.html">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/AutoFill/examples/fill-both.html">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/AutoFill/examples/fill-horizontal.html">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/AutoFill/examples/index.html">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/AutoFill/examples/scrolling.html">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/AutoFill/examples/simple.html">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/AutoFill/examples/step-callback.html">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/AutoFill/images/filler.png">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/AutoFill/js/dataTables.autoFill.js">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/AutoFill/js/dataTables.autoFill.min.js">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/AutoFill/Readme.txt">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColReorder/css/dataTables.colReorder.css">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColReorder/css/dataTables.colReorder.min.css">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColReorder/examples/alt_insert.html">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColReorder/examples/colvis.html">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColReorder/examples/col_filter.html">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColReorder/examples/fixedcolumns.html">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColReorder/examples/fixedheader.html">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColReorder/examples/index.html">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColReorder/examples/jqueryui.html">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColReorder/examples/new_init.html">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColReorder/examples/predefined.html">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColReorder/examples/realtime.html">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColReorder/examples/reset.html">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColReorder/examples/scrolling.html">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColReorder/examples/server_side.html">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColReorder/examples/simple.html">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColReorder/examples/state_save.html">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColReorder/images/insert.png">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColReorder/js/dataTables.colReorder.js">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColReorder/js/dataTables.colReorder.min.js">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColReorder/License.txt">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColReorder/Readme.md">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColVis/css/dataTables.colVis.css">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColVis/css/dataTables.colvis.jqueryui.css">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColVis/css/dataTables.colVis.min.css">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColVis/examples/button_order.html">
+      <publishTime>05/30/2020 09:16:20</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColVis/examples/exclude_columns.html">
+      <publishTime>05/30/2020 09:16:20</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColVis/examples/group_columns.html">
+      <publishTime>05/30/2020 09:16:20</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColVis/examples/index.html">
+      <publishTime>05/30/2020 09:16:20</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColVis/examples/jqueryui.html">
+      <publishTime>05/30/2020 09:16:20</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColVis/examples/mouseover.html">
+      <publishTime>05/30/2020 09:16:20</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColVis/examples/new_init.html">
+      <publishTime>05/30/2020 09:16:20</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColVis/examples/restore.html">
+      <publishTime>05/30/2020 09:16:20</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColVis/examples/simple.html">
+      <publishTime>05/30/2020 09:16:20</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColVis/examples/text.html">
+      <publishTime>05/30/2020 09:16:20</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColVis/examples/title_callback.html">
+      <publishTime>05/30/2020 09:16:20</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColVis/examples/two_tables.html">
+      <publishTime>05/30/2020 09:16:20</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColVis/examples/two_tables_identical.html">
+      <publishTime>05/30/2020 09:16:20</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColVis/js/dataTables.colVis.js">
+      <publishTime>05/30/2020 09:16:20</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColVis/js/dataTables.colVis.min.js">
+      <publishTime>05/30/2020 09:16:20</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColVis/License.txt">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/ColVis/Readme.md">
+      <publishTime>05/30/2020 09:16:19</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Export/css/buttons.dataTables.min.css">
+      <publishTime>05/30/2020 09:16:20</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Export/js/buttons.flash.min.js">
+      <publishTime>05/30/2020 09:16:21</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Export/js/buttons.html5.min.js">
+      <publishTime>05/30/2020 09:16:21</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Export/js/buttons.print.min.js">
+      <publishTime>05/30/2020 09:16:21</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Export/js/dataTables.buttons.min.js">
+      <publishTime>05/30/2020 09:16:21</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Export/js/jszip.min.js">
+      <publishTime>05/30/2020 09:16:21</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Export/js/pdfmake.min.js">
+      <publishTime>05/30/2020 09:16:21</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Export/js/vfs_fonts.js">
+      <publishTime>05/30/2020 09:16:21</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedColumns/css/dataTables.fixedColumns.css">
+      <publishTime>05/30/2020 09:16:21</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedColumns/css/dataTables.fixedColumns.min.css">
+      <publishTime>05/30/2020 09:16:21</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedColumns/examples/bootstrap.html">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedColumns/examples/colvis.html">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedColumns/examples/col_filter.html">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedColumns/examples/css_size.html">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedColumns/examples/index.html">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedColumns/examples/index_column.html">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedColumns/examples/left_right_columns.html">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedColumns/examples/right_column.html">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedColumns/examples/rowspan.html">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedColumns/examples/server-side-processing.html">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedColumns/examples/simple.html">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedColumns/examples/size_fixed.html">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedColumns/examples/size_fluid.html">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedColumns/examples/two_columns.html">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedColumns/js/dataTables.fixedColumns.js">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedColumns/js/dataTables.fixedColumns.min.js">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedColumns/License.txt">
+      <publishTime>05/30/2020 09:16:21</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedColumns/Readme.md">
+      <publishTime>05/30/2020 09:16:21</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedHeader/css/dataTables.fixedHeader.css">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedHeader/css/dataTables.fixedHeader.min.css">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedHeader/examples/header_footer.html">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedHeader/examples/index.html">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedHeader/examples/simple.html">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedHeader/examples/top_left_right.html">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedHeader/examples/two_tables.html">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedHeader/examples/zIndexes.html">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedHeader/js/dataTables.fixedHeader.js">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedHeader/js/dataTables.fixedHeader.min.js">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/FixedHeader/Readme.txt">
+      <publishTime>05/30/2020 09:16:22</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/KeyTable/css/dataTables.keyTable.css">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/KeyTable/css/dataTables.keyTable.min.css">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/KeyTable/examples/events.html">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/KeyTable/examples/html.html">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/KeyTable/examples/index.html">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/KeyTable/examples/scrolling.html">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/KeyTable/examples/simple.html">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/KeyTable/js/dataTables.keyTable.js">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/KeyTable/js/dataTables.keyTable.min.js">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/KeyTable/Readme.txt">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/css/dataTables.responsive.css">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/css/dataTables.responsive.scss">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/css/responsive.bootstrap4.min.css">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/examples/child-rows/column-control.html">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/examples/child-rows/custom-renderer.html">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/examples/child-rows/disable-child-rows.html">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/examples/child-rows/index.html">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/examples/child-rows/right-column.html">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/examples/child-rows/whole-row-control.html">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/examples/display-control/auto.html">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/examples/display-control/classes.html">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/examples/display-control/complexHeader.html">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/examples/display-control/fixedHeader.html">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/examples/display-control/index.html">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/examples/display-control/init-classes.html">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/examples/index.html">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/examples/initialisation/ajax.html">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/examples/initialisation/className.html">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/examples/initialisation/default.html">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/examples/initialisation/index.html">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/examples/initialisation/new.html">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/examples/initialisation/option.html">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/examples/styling/bootstrap.html">
+      <publishTime>05/30/2020 09:16:24</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/examples/styling/compact.html">
+      <publishTime>05/30/2020 09:16:24</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/examples/styling/foundation.html">
+      <publishTime>05/30/2020 09:16:24</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/examples/styling/index.html">
+      <publishTime>05/30/2020 09:16:24</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/examples/styling/scrolling.html">
+      <publishTime>05/30/2020 09:16:24</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/js/dataTables.responsive.js">
+      <publishTime>05/30/2020 09:16:24</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/js/dataTables.responsive.min.js">
+      <publishTime>05/30/2020 09:16:24</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/js/responsive.bootstrap4.min.js">
+      <publishTime>05/30/2020 09:16:24</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/License.txt">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Responsive/Readme.md">
+      <publishTime>05/30/2020 09:16:23</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Scroller/css/dataTables.scroller.css">
+      <publishTime>05/30/2020 09:16:24</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Scroller/css/dataTables.scroller.min.css">
+      <publishTime>05/30/2020 09:16:24</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Scroller/examples/api_scrolling.html">
+      <publishTime>05/30/2020 09:16:24</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Scroller/examples/data/2500.txt">
+      <publishTime>05/30/2020 09:16:24</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Scroller/examples/data/ssp.php">
+      <publishTime>05/30/2020 09:16:24</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Scroller/examples/index.html">
+      <publishTime>05/30/2020 09:16:24</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Scroller/examples/large_js_source.html">
+      <publishTime>05/30/2020 09:16:24</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Scroller/examples/server-side_processing.html">
+      <publishTime>05/30/2020 09:16:24</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Scroller/examples/simple.html">
+      <publishTime>05/30/2020 09:16:24</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Scroller/examples/state_saving.html">
+      <publishTime>05/30/2020 09:16:24</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Scroller/images/loading-background.png">
+      <publishTime>05/30/2020 09:16:24</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Scroller/js/dataTables.scroller.js">
+      <publishTime>05/30/2020 09:16:24</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Scroller/js/dataTables.scroller.min.js">
+      <publishTime>05/30/2020 09:16:24</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/Scroller/Readme.txt">
+      <publishTime>05/30/2020 09:16:24</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/css/dataTables.tableTools.css">
+      <publishTime>05/30/2020 09:16:24</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/css/dataTables.tableTools.min.css">
+      <publishTime>05/30/2020 09:16:24</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/examples/ajax.html">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/examples/alter_buttons.html">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/examples/bootstrap.html">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/examples/button_text.html">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/examples/collection.html">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/examples/defaults.html">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/examples/index.html">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/examples/jqueryui.html">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/examples/multiple_tables.html">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/examples/multi_instance.html">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/examples/new_init.html">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/examples/pdf_message.html">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/examples/plug-in.html">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/examples/select_column.html">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/examples/select_multi.html">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/examples/select_os.html">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/examples/select_single.html">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/examples/simple.html">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/examples/swf_path.html">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/images/collection.png">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/images/collection_hover.png">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/images/copy.png">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/images/copy_hover.png">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/images/csv.png">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/images/csv_hover.png">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/images/pdf.png">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/images/pdf_hover.png">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/images/print.png">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/images/print_hover.png">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/images/psd/collection.psd">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/images/psd/copy document.psd">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/images/psd/file_types.psd">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/images/psd/printer.psd">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/images/xls.png">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/images/xls_hover.png">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/js/dataTables.tableTools.js">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/js/dataTables.tableTools.min.js">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/Readme.md">
+      <publishTime>05/30/2020 09:16:24</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/swf/copy_csv_xls.swf">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/extensions/TableTools/swf/copy_csv_xls_pdf.swf">
+      <publishTime>05/30/2020 09:16:25</publishTime>
+    </File>
+    <File Include="Libs/Datatables/images/sort_asc.png">
+      <publishTime>05/30/2020 09:16:26</publishTime>
+    </File>
+    <File Include="Libs/Datatables/images/sort_asc_disabled.png">
+      <publishTime>05/30/2020 09:16:26</publishTime>
+    </File>
+    <File Include="Libs/Datatables/images/sort_both.png">
+      <publishTime>05/30/2020 09:16:26</publishTime>
+    </File>
+    <File Include="Libs/Datatables/images/sort_desc.png">
+      <publishTime>05/30/2020 09:16:26</publishTime>
+    </File>
+    <File Include="Libs/Datatables/images/sort_desc_disabled.png">
+      <publishTime>05/30/2020 09:16:26</publishTime>
+    </File>
+    <File Include="Libs/Datatables/jquery.dataTables.css">
+      <publishTime>05/30/2020 09:16:26</publishTime>
+    </File>
+    <File Include="Libs/Datatables/jquery.dataTables.js">
+      <publishTime>05/30/2020 09:16:26</publishTime>
+    </File>
+    <File Include="Libs/Datatables/jquery.dataTables.min.css">
+      <publishTime>05/30/2020 09:16:26</publishTime>
+    </File>
+    <File Include="Libs/Datatables/jquery.dataTables.min.js">
+      <publishTime>05/30/2020 09:16:26</publishTime>
+    </File>
+    <File Include="Libs/Datatables/jquery.dataTables_themeroller.css">
+      <publishTime>05/30/2020 09:16:26</publishTime>
+    </File>
+    <File Include="Libs/Datatables/responsive.bootstrap4.min.js">
+      <publishTime>05/30/2020 09:16:26</publishTime>
+    </File>
+    <File Include="Libs/Datatables/Spanish.json">
+      <publishTime>05/30/2020 09:16:18</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/css/all.css">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/css/all.min.css">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/css/brands.css">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/css/brands.min.css">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/css/fontawesome.css">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/css/fontawesome.min.css">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/css/regular.css">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/css/regular.min.css">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/css/solid.css">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/css/solid.min.css">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/css/svg-with-js.css">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/css/svg-with-js.min.css">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/css/v4-shims.css">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/css/v4-shims.min.css">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/webfonts/fa-brands-400.eot">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/webfonts/fa-brands-400.svg">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/webfonts/fa-brands-400.ttf">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/webfonts/fa-brands-400.woff">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/webfonts/fa-brands-400.woff2">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/webfonts/fa-regular-400.eot">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/webfonts/fa-regular-400.svg">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/webfonts/fa-regular-400.ttf">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/webfonts/fa-regular-400.woff">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/webfonts/fa-regular-400.woff2">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/webfonts/fa-solid-900.eot">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/webfonts/fa-solid-900.svg">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/webfonts/fa-solid-900.ttf">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/webfonts/fa-solid-900.woff">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Fontawesome-free/webfonts/fa-solid-900.woff2">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/icheck-bootstrap/icheck-bootstrap.css">
+      <publishTime>05/30/2020 09:16:30</publishTime>
+    </File>
+    <File Include="Libs/icheck-bootstrap/icheck-bootstrap.min.css">
+      <publishTime>05/30/2020 09:16:30</publishTime>
+    </File>
+    <File Include="Libs/icheck-bootstrap/LICENSE">
+      <publishTime>05/30/2020 09:16:30</publishTime>
+    </File>
+    <File Include="Libs/icheck-bootstrap/package.json">
+      <publishTime>05/30/2020 09:16:30</publishTime>
+    </File>
+    <File Include="Libs/icheck-bootstrap/README.md">
+      <publishTime>05/30/2020 09:16:30</publishTime>
+    </File>
+    <File Include="Libs/Jquery-mask/jquery.mask.js">
+      <publishTime>05/30/2020 09:16:28</publishTime>
+    </File>
+    <File Include="Libs/Jquery-mask/jquery.mask.min.js">
+      <publishTime>05/30/2020 09:16:28</publishTime>
+    </File>
+    <File Include="Libs/Jquery-UI/jquery-ui.min.js">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Jquery/jquery-3.4.1.min.js">
+      <publishTime>05/30/2020 09:16:27</publishTime>
+    </File>
+    <File Include="Libs/Multi-select/multiple-select.min.css">
+      <publishTime>06/10/2020 23:35:17</publishTime>
+    </File>
+    <File Include="Libs/Multi-select/multiple-select.min.js">
+      <publishTime>05/30/2020 09:16:28</publishTime>
+    </File>
+    <File Include="Libs/Select2/css/select2.css">
+      <publishTime>05/30/2020 09:16:28</publishTime>
+    </File>
+    <File Include="Libs/Select2/css/select2.min.css">
+      <publishTime>05/30/2020 09:16:28</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/af.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/ar.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/az.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/bg.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/bn.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/bs.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/build.txt">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/ca.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/cs.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/da.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/de.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/dsb.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/el.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/en.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/es.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/et.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/eu.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/fa.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/fi.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/fr.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/gl.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/he.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/hi.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/hr.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/hsb.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/hu.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/hy.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/id.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/is.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/it.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/ja.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/ka.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/km.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/ko.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/lt.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/lv.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/mk.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/ms.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/nb.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/ne.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/nl.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/pl.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/ps.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/pt-BR.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/pt.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/ro.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/ru.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/sk.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/sl.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/sq.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/sr-Cyrl.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/sr.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/sv.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/th.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/tk.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/tr.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/uk.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/vi.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/zh-CN.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/i18n/zh-TW.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/select2.full.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/select2.full.min.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/select2.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/Select2/js/select2.min.js">
+      <publishTime>05/30/2020 09:16:29</publishTime>
+    </File>
+    <File Include="Libs/SplitText/SplitText.min.js">
+      <publishTime>05/30/2020 09:16:30</publishTime>
+    </File>
+    <File Include="Libs/sweetalert2/sweetalert2.all.js">
+      <publishTime>05/30/2020 09:16:30</publishTime>
+    </File>
+    <File Include="Libs/sweetalert2/sweetalert2.all.min.js">
+      <publishTime>05/30/2020 09:16:30</publishTime>
+    </File>
+    <File Include="Libs/sweetalert2/sweetalert2.css">
+      <publishTime>05/30/2020 09:16:30</publishTime>
+    </File>
+    <File Include="Libs/sweetalert2/sweetalert2.js">
+      <publishTime>05/30/2020 09:16:30</publishTime>
+    </File>
+    <File Include="Libs/sweetalert2/sweetalert2.min.css">
+      <publishTime>05/30/2020 09:16:30</publishTime>
+    </File>
+    <File Include="Libs/sweetalert2/sweetalert2.min.js">
+      <publishTime>05/30/2020 09:16:30</publishTime>
+    </File>
+    <File Include="Libs/TSC_css/StylePopup.css">
+      <publishTime>06/15/2020 19:53:14</publishTime>
+    </File>
+    <File Include="Libs/TweenMax/TweenMax.min.js">
+      <publishTime>05/30/2020 09:16:30</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>05/30/2020 19:23:16</publishTime>
+    </File>
+    <File Include="Public/favicon.ico">
+      <publishTime>05/30/2020 09:16:30</publishTime>
+    </File>
+    <File Include="Public/ImprimirFichaTecnica/images.jpg">
+      <publishTime>05/30/2020 09:16:30</publishTime>
+    </File>
+    <File Include="Public/ImprimirFichaTecnica/tsclogo.png">
+      <publishTime>05/30/2020 09:16:30</publishTime>
+    </File>
+    <File Include="Public/progress.gif">
+      <publishTime>05/30/2020 09:16:30</publishTime>
+    </File>
+    <File Include="Public/tecsito.png">
+      <publishTime>05/30/2020 09:16:30</publishTime>
+    </File>
+    <File Include="Rotativa/help-wkhtmltoimage.txt">
+      <publishTime>05/30/2020 09:16:32</publishTime>
+    </File>
+    <File Include="Rotativa/help-wkhtmltopdf.txt">
+      <publishTime>05/30/2020 09:16:32</publishTime>
+    </File>
+    <File Include="Rotativa/wkhtmltoimage.exe">
+      <publishTime>05/30/2020 09:16:32</publishTime>
+    </File>
+    <File Include="Rotativa/wkhtmltopdf.exe">
+      <publishTime>05/30/2020 09:16:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.js">
+      <publishTime>05/30/2020 19:22:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.min.js">
+      <publishTime>05/30/2020 19:22:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.min.map">
+      <publishTime>05/30/2020 19:22:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.slim.js">
+      <publishTime>05/30/2020 19:22:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.slim.min.js">
+      <publishTime>05/30/2020 19:22:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.slim.min.map">
+      <publishTime>05/30/2020 19:22:27</publishTime>
+    </File>
+    <File Include="Views/Comercial/Actipedido.cshtml">
+      <publishTime>05/30/2020 09:16:15</publishTime>
+    </File>
+    <File Include="Views/Comercial/SubirPO.cshtml">
+      <publishTime>05/30/2020 09:16:15</publishTime>
+    </File>
+    <File Include="Views/Corte/BuscarLiquidacion.cshtml">
+      <publishTime>05/30/2020 09:16:15</publishTime>
+    </File>
+    <File Include="Views/Corte/LiquidacionCorte.cshtml">
+      <publishTime>05/30/2020 09:16:15</publishTime>
+    </File>
+    <File Include="Views/Corte/LiquidacionPorFichas.cshtml">
+      <publishTime>05/30/2020 09:16:15</publishTime>
+    </File>
+    <File Include="Views/Corte/MermasCorte.cshtml">
+      <publishTime>05/30/2020 09:16:15</publishTime>
+    </File>
+    <File Include="Views/Corte/ReporteControlUso.cshtml">
+      <publishTime>05/30/2020 09:16:15</publishTime>
+    </File>
+    <File Include="Views/Corte/ReporteControlUsoIndicador.cshtml">
+      <publishTime>05/30/2020 09:16:15</publishTime>
+    </File>
+    <File Include="Views/Dashboard/Index.cshtml">
+      <publishTime>05/30/2020 09:16:15</publishTime>
+    </File>
+    <File Include="Views/Dashboard/Login.cshtml">
+      <publishTime>05/30/2020 09:16:15</publishTime>
+    </File>
+    <File Include="Views/DesarrolloProducto/FooterDinamico.cshtml">
+      <publishTime>05/30/2020 09:16:16</publishTime>
+    </File>
+    <File Include="Views/DesarrolloProducto/HeaderDinamico.cshtml">
+      <publishTime>05/30/2020 09:16:16</publishTime>
+    </File>
+    <File Include="Views/DesarrolloProducto/RegistroMoldes.cshtml">
+      <publishTime>05/30/2020 09:16:16</publishTime>
+    </File>
+    <File Include="Views/DesarrolloProducto/ReporteFichaTecnica.cshtml">
+      <publishTime>05/30/2020 09:16:16</publishTime>
+    </File>
+    <File Include="Views/DesarrolloProducto/VistaReporteFichaTecnica.cshtml">
+      <publishTime>05/30/2020 09:16:16</publishTime>
+    </File>
+    <File Include="Views/DesarrolloProducto/VisualizacionMoldes.cshtml">
+      <publishTime>05/30/2020 09:16:16</publishTime>
+    </File>
+    <File Include="Views/Gerencia/AprobacionCambioPrecio.cshtml">
+      <publishTime>05/30/2020 09:16:16</publishTime>
+    </File>
+    <File Include="Views/Gerencia/AprobacionCambioTaller.cshtml">
+      <publishTime>05/30/2020 09:16:16</publishTime>
+    </File>
+    <File Include="Views/Login/Index.cshtml">
+      <publishTime>05/30/2020 09:16:16</publishTime>
+    </File>
+    <File Include="Views/Logistica/AcumGerCecoCuenta.cshtml">
+      <publishTime>05/30/2020 09:16:16</publishTime>
+    </File>
+    <File Include="Views/Logistica/AcumuladoXCuenta.cshtml">
+      <publishTime>05/30/2020 09:16:16</publishTime>
+    </File>
+    <File Include="Views/Logistica/AlterarSituacion.cshtml">
+      <publishTime>05/30/2020 09:16:16</publishTime>
+    </File>
+    <File Include="Views/Logistica/AprobacionExcedente.cshtml">
+      <publishTime>06/04/2020 08:45:41</publishTime>
+    </File>
+    <File Include="Views/Logistica/AprobacionOC.cshtml">
+      <publishTime>06/10/2020 23:50:42</publishTime>
+    </File>
+    <File Include="Views/Logistica/AprobacionOCold.cshtml">
+      <publishTime>05/30/2020 09:16:16</publishTime>
+    </File>
+    <File Include="Views/Logistica/AsignacionPresupuesto.cshtml">
+      <publishTime>05/30/2020 09:16:16</publishTime>
+    </File>
+    <File Include="Views/Logistica/OcPendienteCierre.cshtml">
+      <publishTime>06/10/2020 23:41:29</publishTime>
+    </File>
+    <File Include="Views/Logistica/OcPendientesFirma.cshtml">
+      <publishTime>06/10/2020 23:46:14</publishTime>
+    </File>
+    <File Include="Views/Logistica/OcPendientesFirmaOld.cshtml">
+      <publishTime>05/30/2020 09:41:09</publishTime>
+    </File>
+    <File Include="Views/Logistica/RegistroConsumo.cshtml">
+      <publishTime>05/30/2020 09:16:16</publishTime>
+    </File>
+    <File Include="Views/Logistica/Visualizar.cshtml">
+      <publishTime>03/10/2020 14:10:42</publishTime>
+    </File>
+    <File Include="Views/Logistica/VisualizarOS.cshtml">
+      <publishTime>03/10/2020 14:10:42</publishTime>
+    </File>
+    <File Include="Views/Operaciones/AperturarGuiaEntrada.cshtml">
+      <publishTime>05/30/2020 09:16:15</publishTime>
+    </File>
+    <File Include="Views/Operaciones/AperturarGuiaSalida.cshtml">
+      <publishTime>05/30/2020 09:16:15</publishTime>
+    </File>
+    <File Include="Views/Operaciones/BolsaLona.cshtml">
+      <publishTime>05/30/2020 09:16:15</publishTime>
+    </File>
+    <File Include="Views/Operaciones/BuscarFichaTecnica.cshtml">
+      <publishTime>05/30/2020 09:16:15</publishTime>
+    </File>
+    <File Include="Views/Operaciones/CambioTaller.cshtml">
+      <publishTime>05/30/2020 09:16:15</publishTime>
+    </File>
+    <File Include="Views/Operaciones/DesasociarFicha.cshtml">
+      <publishTime>05/30/2020 09:16:15</publishTime>
+    </File>
+    <File Include="Views/Operaciones/DesbloquearOS.cshtml">
+      <publishTime>05/30/2020 09:16:15</publishTime>
+    </File>
+    <File Include="Views/Operaciones/SubirFichaTecnica.cshtml">
+      <publishTime>05/30/2020 09:16:15</publishTime>
+    </File>
+    <File Include="Views/Planeamiento/AsignacionMermas.cshtml">
+      <publishTime>06/15/2020 19:53:53</publishTime>
+    </File>
+    <File Include="Views/Planeamiento/PedidosAmbulancia.cshtml">
+      <publishTime>05/30/2020 09:16:16</publishTime>
+    </File>
+    <File Include="Views/Plantillas/modulos.cshtml">
+      <publishTime>05/30/2020 09:16:16</publishTime>
+    </File>
+    <File Include="Views/Plantillas/_Layout.cshtml">
+      <publishTime>06/15/2020 19:55:07</publishTime>
+    </File>
+    <File Include="Views/Seguridad/RequerimientosProgramador.cshtml">
+      <publishTime>05/30/2020 09:16:16</publishTime>
+    </File>
+    <File Include="Views/Seguridad/VerCambioFecha.cshtml">
+      <publishTime>05/30/2020 09:16:16</publishTime>
+    </File>
+    <File Include="Views/Sistema/Error404.cshtml">
+      <publishTime>05/30/2020 09:16:17</publishTime>
+    </File>
+    <File Include="Views/Sistema/Error500.cshtml">
+      <publishTime>05/30/2020 09:16:17</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>05/30/2020 09:16:17</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/15/2020 20:00:05</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Para obtener más información acerca de cómo configurar una aplicación ASP.NET, consulte
+  http://go.microsoft.com/fwlink/?LinkId=301880
+  -->
+<configuration>
+
+	<connectionStrings>
+		<add name="conexion" connectionString="Data Source=172.16.88.137/DBSYSTEX;User Id=USYSTEX;Password=oracle;" providerName="Oracle.ManagedDataAccess.Client" />
+	</connectionStrings>	
+	
+  <appSettings>
+    <add key="webpages:Version" value="3.0.0.0" />
+    <add key="webpages:Enabled" value="false" />
+    <add key="ClientValidationEnabled" value="true" />
+    <add key="UnobtrusiveJavaScriptEnabled" value="true" />
+
+	<!-- OneDrive API for school or work accounts. Register your own via https://manage.windowsazure.com . -->
+	<add key="OneDriveForBusinessO365ApiClientID" value="a9dab0c2-96e5-4c64-991c-f3d5ba181f98"/>
+	<add key="OneDriveForBusinessO365ApiClientSecret" value="5JsE7ltjDa2V3DNQGBHCCMI9vEEjFqiySk95J7CLDIU="/>
+
+	<!-- TOKEN DE ACCESO -->
+	<add key="OneDriveApiRefreshToken" value="AQABAAAAAAAP0wLlqdLVToOpA4kwzSnxhDdWWMclmIOMwz496bNXGLwrjxa5k_1VRuI2VLpp0Dea4OJBfix-fNvYS5dE8-ko2hBri_j7x1ew4CQOcJ6tpimdPlSoBDyIczbBcei8jql68fyy-m5aIiVIWIb0R3JQ33uyhkEFDmQkXXIg5kMhR8iqrvhm20DUIjhJchP5T4kPUkLvWS-sPP9nF6Dq37xKsxASdIMODTLcex6n-bMyPocSce8gJiq70XEMmqQ4szEA3KrhEAGVVLPgSYYgcwzZy-xpA-wo9xTkMFNFWEjKrTWuDRc0Bf-C1mcTEBbaNj2Gh2Emxq7KpYtXT4sgJBcR3k6M8MxmJBIeU-sHTr7ZqhkYprHM6AsFZH0KTOX39jMLv69JuzAK8lf4qQnl2K5Tvub_n3po9fPEZw_kHJqBD_YjwC8a7dnJPLbBlyv1bvLA_ua4kaA-8nNALNJ2NtWn8C713oiNX-XhHp9kYsgMd9wkT_gvuwbBrSbiAV3HcSzaOWh5Yda38lJJ422oqPYHrbMi_uqfdN4Ko5HnNDP6f4Brd32A3G5J31q8Apo0q0i3jrAw4Ru-wOvQEiSBe-n3-amNn_pxFbOo3N8UNocj0I3O6dnxTQwjuQCNGrdAhh5mqwwW8gZJFw8QAzCbJMjzLMOWli6jMYQPHpf9YujtdFp5pyclIqG5CsjaFl_uk9rSq6bYrejQbbCWal74tT8uAZekzT2Rray37yCCwp_BAtUC7rVaIlcLRjCrrVrvO6qEPGE1m_7hE8YzKzip_pp-xOWy9VXVBlqgBP8eH-oGzSudEL75QQSK-NQG2U_9x7wgAA"/>
+	  
+  </appSettings>
+  <system.web>
+    <compilation targetFramework="4.6.2" />
+	  <!-- PARA SUBIR ARCHIVOS MAS PESADOS (40 MEGAS MAXIMO)-->
+    <httpRuntime targetFramework="4.6.2" maxRequestLength="41943040" />
+  </system.web>
+
+	
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Newtonsoft.Json" culture="neutral" publicKeyToken="30ad4fe6b2a6aeed" />
+        <bindingRedirect oldVersion="0.0.0.0-12.0.0.0" newVersion="12.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Web.Optimization" publicKeyToken="31bf3856ad364e35" />
+        <bindingRedirect oldVersion="1.0.0.0-1.1.0.0" newVersion="1.1.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="WebGrease" publicKeyToken="31bf3856ad364e35" />
+        <bindingRedirect oldVersion="1.0.0.0-1.5.2.14234" newVersion="1.5.2.14234" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Web.Helpers" publicKeyToken="31bf3856ad364e35" />
+        <bindingRedirect oldVersion="1.0.0.0-3.0.0.0" newVersion="3.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Web.WebPages" publicKeyToken="31bf3856ad364e35" />
+        <bindingRedirect oldVersion="1.0.0.0-3.0.0.0" newVersion="3.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Web.Mvc" publicKeyToken="31bf3856ad364e35" />
+        <bindingRedirect oldVersion="1.0.0.0-5.2.0.0" newVersion="5.2.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+</configuration>

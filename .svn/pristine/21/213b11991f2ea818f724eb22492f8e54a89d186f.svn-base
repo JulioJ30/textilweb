@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="conexion-Web.config Connection String" description="conexion Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=172.16.88.137/DBSYSTEX;User Id=USYSTEX;Password=oracle;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\CODIGO\ FUENTE\ 2019\\tsc_web_nuevo_new\\TSC_WEB\\TSC_WEB\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='conexion']/@connectionString" />
+  </parameter>
+</parameters>

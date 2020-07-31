@@ -1,0 +1,45 @@
+﻿<li class="nav-item">
+    <a href="/seguridad/index" class="nav-link active">
+        <i class="nav-icon fas fa-th"></i>
+        <p>    Dashboard    </p>
+    </a>
+</li>
+<li class="nav-header">MODULOS</li>
+@if (Session["usuario"] != null)
+{
+
+    int idtag = 0;
+
+    var Modulos = (List<TSC_WEB.Models.Entidades.Sistema.ModulosEntidad>)Session["modulos"];
+
+
+    foreach (var objModulos in Modulos)
+    {
+        if (idtag != objModulos.idtag)
+        {
+            @* MODULOS *@
+            <li class="nav-item has-treeview">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon @objModulos.icono"></i>
+                    <p>@objModulos.nombretag<i class="fas fa-angle-left right"></i></p>
+                </a>
+                <ul class="nav nav-treeview" style="display: none;">
+                    @* SUBMODULOS *@
+                    @foreach (var objDetModulos in Modulos)
+                    {
+                        if (objDetModulos.idtag == objModulos.idtag)
+                        {
+                            <li class="nav-item">
+                                <a href="@objDetModulos.ruta" class="nav-link">
+                                    <h6 style="font-size:0.8rem"><i class="far fa-circle fa-xs nav-icon" style="font-size:0.8rem"></i>@objDetModulos.detnombretag</h6>
+                                </a>
+                            </li>
+                        }
+                    }
+                </ul>
+            </li>
+        }
+
+        idtag = objModulos.idtag;
+    }
+}

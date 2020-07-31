@@ -1,0 +1,9 @@
+﻿
+@{
+    ViewBag.Title = "Dashboard";
+    ViewBag.Modulo = "Dashboard";
+    Layout = "~/Views/Plantillas/_Layout.cshtml";
+}
+
+
+
